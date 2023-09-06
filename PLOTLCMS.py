@@ -111,7 +111,7 @@ def process_ASR(ASR_path, graph = False):
 
 def main():
 
-    ASR_path = 'Sulfa Drug LCMS Standard.ASR'
+    ASR_path = 'LCMS Sulfa Drug Standard.ASR'
 
     with open(ASR_path) as f:
         asr = f.readlines()
